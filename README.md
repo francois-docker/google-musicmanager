@@ -1,7 +1,7 @@
-#Google MusicManager
+# Google MusicManager
 Upload your music to google play music service
 
-##Run
+## Run
 - "-net=host" option is mandatory because google-musicmanager software check that the mac address seems real
 
 ```
@@ -11,7 +11,7 @@ docker run -dti --name googlemusicmanager --net=host -v /path/to/your/music/fold
 then follow application wizard
 
 
-##Build
+## Build
 as usual
 
 ```
